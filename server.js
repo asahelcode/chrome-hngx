@@ -3,8 +3,8 @@ dotenv.config();
 
 import express from "express";
 import cors from "cors";
-import uploadRoute from "./routes/uploadRoute.js";
-import recordingsRoute from "./routes/recordingsRoute.js";
+import uploadRoute from "./routes/upload.js";
+import recordingsRoute from "./routes/recordings.js";
 
 const app = express();
 
